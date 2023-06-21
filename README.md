@@ -1,5 +1,8 @@
 # HaLP: Hallucinating Latent Positives for Skeleton-based Self-Supervised Learning of Actions 
-![](teaser.png)
+<!-- ![](teaser.png) -->
+<img src="teaser.png" alt="drawing" width="300"/>
+
+[[`arXiv`](https://arxiv.org/abs/2304.00387)] [[`Video`](https://www.youtube.com/watch?v=O5pFnUmRciQ)]
 
 ## Setup environment
 - `conda create -n halp python=3`
