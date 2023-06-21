@@ -121,7 +121,7 @@ def main():
     else:
         torch.cuda.set_device(0)
 
-    wandb.init(project="HaLP", entity="gaitset",config=args)
+    wandb.init(project="halp",config=args,tags=['pretrain'],settings=wandb.Settings(start_method="fork"))
     if wandb.run.sweep_id is None:
         sweep_name = 'no_sweep'
     else:
