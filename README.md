@@ -22,7 +22,7 @@
 - Download the 200 and 500 epoch pretrained baseline models from [here](https://www.cis.jhu.edu/~ashah/HaLP/baseline_checkpoints/)
 - Refer to `scripts` for training and evaluation.
 
-## Citatiion
+## Citation
 If you find this repository useful in your research, please cite:
 ```
 @InProceedings{Shah_2023_CVPR,
