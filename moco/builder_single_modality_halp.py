@@ -77,7 +77,7 @@ class MoCo(nn.Module):
     @torch.no_grad()
     def update_prototypes(self,update_prototypes=False,verbose=False):
         if update_prototypes:
-            print('updating prototypes')
+            # print('updating prototypes')
             queue_inds_to_use = np.roll(self.all_queue_indices,self.all_queue_indices.shape[0]-int(self.queue_ptr))[-self.queue_els_for_prototypes:]
             
             manifold = Hypersphere(dim=128)
