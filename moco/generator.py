@@ -25,7 +25,7 @@ def generate_positives_using_mixup(prototypes,initial_value, inds=None,num_to_ge
     max_t = ((1/(omega+1E-8))*torch.atan((torch.sin(omega))/(K + torch.cos(omega) + 1E-8)))
     min_t = torch.zeros_like(max_t)
     
-    upper_limit = float(args.lambda_pos.split)
+    upper_limit = float(args.lambda_pos)
     if upper_limit == 1000.0:
         t_to_use = max_t - 1E-2
     else:
