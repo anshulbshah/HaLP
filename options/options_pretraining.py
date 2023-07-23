@@ -27,42 +27,7 @@ bi_gru_model_arguments = {
  }
 
 hostname = socket.gethostname()
-if hostname == 'r26':
-  dataroot = "/cis/net/r26a/data/Datasets/"
-elif hostname == 'io63':
-  dataroot = "/cis/net/io63b/data/ashah/Datasets/"
-elif hostname == 'io76':
-  dataroot = "/cis/net/io76b/data/ashah/datasets/"
-elif hostname == "io65":
-  dataroot = "/cis/net/io65b/data/ashah/Datasets/"
-elif hostname == "r11":
-  dataroot = "/cis/net/r11_ssd/data/ashah/Datasets/"
-elif hostname == "io62":
-  dataroot = "/cis/net/io62a/data/ashah/Datasets/"
-elif hostname == "io64":
-  dataroot = "/cis/net/io64a/data/ashah/Datasets/"
-elif hostname == "io92":
-  dataroot = "/export/io92/data/ashah/datasets/"
-elif hostname == "io35":
-  dataroot = "/export/r35a/data/ashah/datasets/"
-elif hostname == 'io79':
-  dataroot = "/cis/net/io79a/data/ashah/Datasets"
-elif hostname == 'r25':
-  dataroot = "/cis/net/r25/data/ashah/datasets"
-elif hostname == 'r35':
-  dataroot = "/export/r35a/data/ashah/datasets"
-elif hostname == 'io90':
-  dataroot = "/export/io90/data/ashah"
-elif hostname == 'r28':
-  dataroot = "/cis/net/r28a/data/ashah"
-elif hostname == 'r29':
-  dataroot = '/cis/net/r29/data/Anshul/datasets'
-elif hostname == 'r27':
-  dataroot = '/cis/net/r27a/data/ashah'
-elif 'umiacs' in hostname:
-  dataroot = "/fs/vulcan-projects/jigsaw_selfsup_shlokm/PosNeg_CMD/"
-else:
-  dataroot = "./data"
+dataroot = "./data"
 
 class  opts_ntu_60_cross_view():
 
